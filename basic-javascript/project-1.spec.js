@@ -6,7 +6,7 @@ describe("project-1.js", () => {
       expect(helpers.multiplyByTen(2)).toBe(20)
     })
     it("should return null if num is a string", () => {
-      expect(helpers.multiplyByTen("5")).toBeNull()
+      expect(helpers.multiplyByTen("9")).toBeNull()
     })
     it("should return null if num is an array", () => {
       expect(helpers.multiplyByTen([1, 2])).toBeNull()

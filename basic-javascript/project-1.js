@@ -6,6 +6,7 @@ const multiplyByTen = num => {
 }
 
 const subtractFive = num => {
+  if (!num || typeof num !== "number") return null
   return num - 5
 }
 
